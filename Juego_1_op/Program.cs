@@ -53,10 +53,10 @@ namespace Juego_1_op
                 Console.WriteLine("Posición Jugador 2:" + posJugador2);
                 Console.WriteLine("-------------------- o --------------------");
 
-                finJuego = posJugador2 >= 100 ^ posJugador2 >= 100;
+                finJuego = posJugador1 >= 100 ^ posJugador2 >= 100;
             } while (!finJuego);
 
-            if (posJugador1 == 100 ^ posJugador2 == 100)
+            if (posJugador1 >= 100 ^ posJugador2 >= 100)
             {
                 if (posJugador1 == 100) { Console.WriteLine("El ganador es " + nombreJ1); }
                 else { Console.WriteLine("El ganador es " + nombreJ2); }
