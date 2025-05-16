@@ -15,8 +15,8 @@ namespace Juego_1_op
             int dado;
             bool finJuego = false;
 
-            int posJugador1 = 0;
-            int posJugador2 = 0;
+            int posJugador1 = 1;
+            int posJugador2 = 1;
 
 
             Console.WriteLine("Escriba el nombre del Jugador 1 y 2");
