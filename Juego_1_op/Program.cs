@@ -58,7 +58,7 @@ namespace Juego_1_op
 
             if (posJugador1 >= 100 ^ posJugador2 >= 100)
             {
-                if (posJugador1 == 100) { Console.WriteLine("El ganador es " + nombreJ1); }
+                if (posJugador1 >= 100) { Console.WriteLine("El ganador es " + nombreJ1); }
                 else { Console.WriteLine("El ganador es " + nombreJ2); }
             }
             else
